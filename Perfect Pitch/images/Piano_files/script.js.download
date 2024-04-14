@@ -1,0 +1,182 @@
+
+
+
+		function play01(){
+		var audio = document.getElementById("01");
+        audio.play();
+		}
+		function play02(){
+		var audio = document.getElementById("02");
+        audio.play();
+		}
+		function play03(){
+		var audio = document.getElementById("03");
+        audio.play();
+		}
+		function play04(){
+		var audio = document.getElementById("04");
+        audio.play();
+		}
+		function play05(){
+		var audio = document.getElementById("05");
+        audio.play();
+		}
+		function play06(){
+		var audio = document.getElementById("06");
+        audio.play();
+		}
+		function play07(){
+		var audio = document.getElementById("07");
+        audio.play();
+		}
+		function play08(){
+		var audio = document.getElementById("08");
+        audio.play();
+		}
+		function play09(){
+		var audio = document.getElementById("09");
+		audio.play();
+		}
+		function play10(){
+		var audio = document.getElementById("10");
+		audio.play();
+		}
+		function play11(){
+		var audio = document.getElementById("11");
+		audio.play();
+		}
+		function play12(){
+		var audio = document.getElementById("12");
+		audio.play();
+		}
+		function play13(){
+		var audio = document.getElementById("13");
+		audio.play();
+		}
+		function play14(){
+		var audio = document.getElementById("14");
+		audio.play();
+		}
+		function play15(){
+		var audio = document.getElementById("15");
+		audio.play();
+		}
+		function play16(){
+		var audio = document.getElementById("16");
+		audio.play();
+		}
+		function play17(){
+		var audio = document.getElementById("17");
+		audio.play();
+		}
+		function play18(){
+		var audio = document.getElementById("18");
+		audio.play();
+		}
+		function play19(){
+		var audio = document.getElementById("19");
+		audio.play();
+		}
+		function play20(){
+		var audio = document.getElementById("20");
+		audio.play();
+		}
+		function play21(){
+		var audio = document.getElementById("21");
+		audio.play();
+		}
+		function play22(){
+		var audio = document.getElementById("22");
+		audio.play();
+		}
+		function play23(){
+		var audio = document.getElementById("23");
+		audio.play();
+		}
+		function play24(){
+		var audio = document.getElementById("24");
+		audio.play();
+		}
+		function play25(){
+		var audio = document.getElementById("25");
+		audio.play();
+		}
+		function play26(){
+		var audio = document.getElementById("26");
+		audio.play();
+		}
+		function play27(){
+		var audio = document.getElementById("27");
+		audio.play();
+		}
+		function play28(){
+		var audio = document.getElementById("28");
+		audio.play();
+		}
+		function play29(){
+		var audio = document.getElementById("29");
+		audio.play();
+		}
+		function play30(){
+		var audio = document.getElementById("30");
+		audio.play();
+		}
+		function play31(){
+		var audio = document.getElementById("31");
+		audio.play();
+		}
+		function play32(){
+		var audio = document.getElementById("32");
+		audio.play();
+		}
+		function play33(){
+		var audio = document.getElementById("33");
+		audio.play();
+		}
+		function play34(){
+		var audio = document.getElementById("34");
+		audio.play();
+		}
+		function play35(){
+		var audio = document.getElementById("35");
+		audio.play();
+		}
+		function play36(){
+		var audio = document.getElementById("36");
+		audio.play();
+		}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

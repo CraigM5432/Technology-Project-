@@ -1,0 +1,173 @@
+<!-- Mary's Code -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Piano</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://kit.fontawesome.com/bae8abee0f.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	
+	<body>
+		
+		<div class="header">
+			&nbsp;
+			<br>
+			<h1>Perfect Pitch</h1>
+			<p>The Perfect Pitch, The Perfect Way</p>
+			<br> 
+		</div>
+		
+		<div class="navbar">
+            <a href="index.html">Home</a>           
+			<a href="pitch.html">Pitch Recognition</a>
+			<a href="piano.html" class="bookmark">Piano</a>
+			<a href="game.html">Chord Game</a>  
+					
+                <div class="dropdown">
+                <button class="dropbtn">Library&nbsp;&nbsp;<i class="fa-solid fa-caret-down"></i></button>
+
+                    <div class="dropdown-content">
+						<a href="gchords.html">Guitar</a>
+                        <a href="pchords.html">Piano</a>
+                    </div>
+
+                </div>
+
+				  <div class="dropdown">
+					<button class="dropbtn">Songs&nbsp;&nbsp;<i class="fa-solid fa-caret-down"></i></button>
+
+                    <div class="dropdown-content">
+						<a href="gsong.html" >Guitar</a>
+                        <a href="psong.html">Piano</a>
+                    </div>
+
+                </div>  
+
+			<a href="login.html">Log In</a>
+				
+        </div>
+				
+				<br><br><br><br>
+				
+				&nbsp;
+		
+		<div class="box">
+			<ul class="piano">
+				<li class="key white blank" onclick="play('01')"><span></span></li>
+				<li class="key black" 		onclick="play('02')"><span></span></li>
+				<li class="key white five" 	onclick="play('03')"><span></span></li>
+				<li class="key black" 		onclick="play('04')"><span></span></li>
+				<li class="key white four" 	onclick="play('05')"><span></span></li>
+				<li class="key black" 		onclick="play('06')"><span></span></li>
+				<li class="key white three" onclick="play('07')"><span></span></li>
+				<li class="key white two" 	onclick="play('08')"><span></span></li>
+				<li class="key black" 		onclick="play('09')"><span></span></li>
+				<li class="key white one" 	onclick="play('10')"><span></span></li>
+				<li class="key black" 		onclick="play('11')"><span></span></li>
+				<li class="key white blank" onclick="play('12')"><span></span></li>
+				<li class="key white blank" onclick="play('13')"><span></span></li>
+				<li class="key black" 		onclick="play('14')"><span></span></li>
+				<li class="key white blank" onclick="play('15')"><span></span></li>				
+				<li class="key black" 		onclick="play('16')"><span></span></li>
+				<li class="key white blank" onclick="play('17')"><span></span></li>
+				<li class="key black" 		onclick="play('18')"><span></span></li>
+				<li class="key white blank" onclick="play('19')"><span></span></li>										
+				<li class="key white blank" onclick="play('20')"><span></span></li>				
+				<li class="key black" 		onclick="play('21')"><span></span></li>
+				<li class="key white blank" onclick="play('22')"><span></span></li>
+				<li class="key black" 		onclick="play('23')"><span></span></li>
+				<li class="key white blank" onclick="play('24')"><span></span></li>
+				<li class="key white blank" onclick="play('25')"><span></span></li>				
+				<li class="key black" 		onclick="play('26')"><span></span></li>
+				<li class="key white five" 	onclick="play('27')"><span></span></li>
+				<li class="key black" 		onclick="play('28')"><span></span></li>
+				<li class="key white four" 	onclick="play('29')"><span></span></li>
+				<li class="key black" 		onclick="play('30')"><span></span></li>				
+				<li class="key white three" onclick="play('31')"><span></span></li>
+				<li class="key white two" 	onclick="play('32')"><span></span></li>
+				<li class="key black" 		onclick="play('33')"><span></span></li>
+				<li class="key white one" 	onclick="play('34')"><span></span></li>
+				<li class="key black" 		onclick="play('35')"><span></span></li>				
+				<li class="key white blank" onclick="play('36')"><span></span></li>
+				
+			</ul>
+			
+			<audio src="audio/F2.mp3" id="01"></audio>
+			<audio src="audio/Gb2.mp3" id="02"></audio>
+			<audio src="audio/G2.mp3" id="03"></audio>
+			<audio src="audio/Ab2.mp3" id="04"></audio>
+			<audio src="audio/A2.mp3" id="05"></audio>
+			<audio src="audio/Bb2.mp3" id="06"></audio>
+			<audio src="audio/B2.mp3" id="07"></audio>
+			<audio src="audio/C3.mp3" id="08" ></audio>
+			<audio src="audio/Db3.mp3" id="09"></audio>
+			<audio src="audio/D3.mp3" id="10"></audio>
+			<audio src="audio/Eb3.mp3" id="11"></audio>
+			<audio src="audio/E3.mp3" id="12"></audio>
+			<audio src="audio/F3.mp3" id="13"></audio>
+			<audio src="audio/Gb3.mp3" id="14"></audio>
+			<audio src="audio/G3.mp3" id="15"></audio>
+			<audio src="audio/Ab3.mp3" id="16"></audio>
+			<audio src="audio/A3.mp3" id="17"></audio>
+			<audio src="audio/Bb3.mp3" id="18"></audio>
+			<audio src="audio/B3.mp3" id="19"></audio>
+			<audio src="audio/C4.mp3" id="20" ></audio>
+			<audio src="audio/Db4.mp3" id="21"></audio>
+			<audio src="audio/D4.mp3" id="22"></audio>
+			<audio src="audio/Eb4.mp3" id="23"></audio>
+			<audio src="audio/E4.mp3" id="24"></audio>
+			<audio src="audio/F4.mp3" id="25"></audio>
+			<audio src="audio/Gb4.mp3" id="26"></audio>
+			<audio src="audio/G4.mp3" id="27"></audio>
+			<audio src="audio/Ab4.mp3" id="28"></audio>
+			<audio src="audio/A4.mp3" id="29"></audio>
+			<audio src="audio/Bb4.mp3" id="30"></audio>
+			<audio src="audio/C5.mp3" id="31" ></audio>
+			<audio src="audio/Db5.mp3" id="32"></audio>
+			<audio src="audio/D5.mp3" id="33"></audio>
+			<audio src="audio/Eb5.mp3" id="34"></audio>
+			<audio src="audio/E5.mp3" id="35"></audio>
+			<audio src="audio/F5.mp3" id="36"></audio>
+			<!-- https://github.com/fuhton/piano-mp3/blob/master/piano-mp3/F2.mp3 -->
+		</div>
+		
+		
+		
+		<br><br><br>
+		
+		<img class="image1" src="images/piano.png">
+		<!-- https://successmusicstudio.com/playing-the-piano-with-color-coded-notes/ -->
+		
+		<br><br><br>
+		
+		<img class="image2" src="images/piano2.png">
+		<!-- https://successmusicstudio.com/playing-piano-with-color-coded-left-hand-notes/ -->
+		
+	
+			
+		<div class="footerPiano">
+			&nbsp;
+			<p>Instagram <i class="fa-brands fa-instagram"></i></p>
+			<p>Facebook <i class="fa-brands fa-facebook"></i></p>
+			<p>Twitter <i class="fa-brands fa-x-twitter"></i></p>
+			<p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Perfect Pitch</p>
+		</div>
+		<br>
+		
+	</body>
+
+</html>
+<!-- Mary's Code -->
+
+
+
+
+
+
+
+
+
+
+
+

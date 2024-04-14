@@ -1,0 +1,178 @@
+body {
+    background-color: #d5dbff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2a145d;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    border: solid;
+    border-color: white;
+    font-weight: bold;
+    text-align: center;
+    color: #37daff;
+}
+
+.footer {
+    background-color: #2a145d;
+    height: 200px;
+    width: 100%;
+  
+    overflow: hidden;  
+    position: absolute;
+      bottom: -680px;
+    left: 0;
+    border: solid;
+    border-color: white;
+}
+
+.footer p {
+    font-weight: bold;
+    text-align: center;
+    color: #37daff;
+}
+
+.heading {
+    text-align: center;
+}
+
+.button {
+    align-items: center;
+}
+
+.chords {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+}
+
+.name {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.box {
+    background-color: black;
+    width: 860px;
+    padding: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.piano {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.key {
+    position: relative;
+    list-style: none;
+}
+
+.white {
+    width: 60px; 
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0 0 6px 6px;
+    margin-right: 3px; 
+}
+
+.black {
+    width: 40px;
+    height: 180px;
+    background-color: black;
+    border-radius: 0 0 4px 4px;
+    margin-left: -20px;
+    margin-right: -20px; 
+    z-index: 1; 
+    border: 1px solid transparent;
+}
+
+
+.five:hover{
+background-color:green;	
+}
+
+
+.four:hover{
+background-color:purple;	
+}
+
+
+.three:hover{
+background-color:blue;	
+}
+
+
+.two:hover{
+background-color:orange;	
+}
+
+
+.one:hover{
+background-color:grey;	
+}
+
+.black:hover{
+	background-color:#A9A9A9;
+}
+
+.blank:hover{
+	background-color:#A9A9A9;
+}
+
+
+
+.image2{
+	background-color: white;
+    position: absoloute;
+    bottom: -550px;
+	top:50%;
+    border: solid;
+    border-color: white;
+	margin: 20px;
+    width: 20%;
+    height: 260px; 
+	margin-left: auto;
+    margin-right: auto;
+	position:550px;
+}
+	
+.image1 {
+    background-color: white;
+    position: absolute;
+     bottom: -650px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: solid;
+    border-color: white;
+    margin: 20px;
+    width: 20%;
+   
+}
+.image2 {
+    background-color: white;
+    position: absolute;
+     top: 790px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: solid;
+    border-color: white;
+    margin: 20px;
+    width: 20%;
+   ]
+}
+
