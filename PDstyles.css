@@ -1,6 +1,6 @@
-.volumeBar{
+.volumeBar {
     display: inline-block;
-    width: 95%;
+    width: -webkit-calc(100% - 60px);
 }
 .pid, .matchPid{
   width: 20px;
@@ -14,6 +14,11 @@
     font-size: 20px;
     color: #7279d4;
     
+}
+
+canvas{
+    width:100%;
+    height: auto;
 }
 
 .PitchH1{
